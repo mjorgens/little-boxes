@@ -1,0 +1,34 @@
+.box {
+  height: $box-size;
+  width: $box-size;
+  background-color: $box-bg;
+  float: left;
+  position: relative;
+  top: 1rem;
+  box-shadow: $box-shadow-size $box-shadow-size $box-shadow-size $box-shadow-color;
+  border: $box-border-size solid $box-border-color;
+  animation: roll 15s infinite;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

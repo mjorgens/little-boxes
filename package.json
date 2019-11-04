@@ -1,0 +1,23 @@
+{
+  "name": "little-boxes",
+  "version": "1.0.0",
+  "description": "This is a demo based on a project I did in school originally to for a CSS assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass src/sass/style.scss src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjorgens/little-boxes.git"
+  },
+  "author": "Marc Jorgensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjorgens/little-boxes/issues"
+  },
+  "homepage": "https://github.com/mjorgens/little-boxes#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
