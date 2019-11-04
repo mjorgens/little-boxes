@@ -1,0 +1,27 @@
+.box {
+  height: 4rem;
+  width: 4rem;
+  background-color: orange;
+  float: left;
+  position: relative;
+  top: 1rem;
+  box-shadow: 0.625rem 0.625rem 0.625rem black;
+  border: 0.0625rem solid black;
+  animation: roll 15s infinite; }
+
+.row {
+  display: flex;
+  justify-content: center; }
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 1rem; }
+
+@keyframes roll {
+  0% {
+    transform: rotate(0); }
+  50% {
+    transform: rotate(45deg); }
+  100% {
+    transform: rotate(0); } }
